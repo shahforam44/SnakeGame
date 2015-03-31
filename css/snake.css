@@ -1,0 +1,35 @@
+.title {
+    text-align: center;
+    color: #b2a93d;
+    font-family: "Bookman", Georgia, "Times New Roman", serif;
+    font-size: x-large;
+}
+
+#gameArea{
+    width: 800px;
+    height: 800px;
+    background-color: #eeeeee;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #dbdbdb;
+    box-shadow: 1px 1px 30px #D9CF48;
+    border-radius: 2%;
+}
+#food{
+    width: 14px;
+    height: 14px;
+    border-radius: 70%;
+    background-color: #9492ff;
+    border: 1px solid blue;
+    position: absolute;
+}
+.snake{
+    width: 14px;
+    height: 14px;
+    background-color: #9492ff;
+    border: 1px solid blue;
+    position: absolute;
+}
+.score{
+    color: #bbde80;
+}
